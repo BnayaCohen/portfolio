@@ -1,0 +1,52 @@
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.about-me h2 {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.about-container {
+    background: linear-gradient(#0097ab, transparent);
+    /* max-height: 50rem; */
+    margin: 4rem auto;
+    overflow: hidden;
+    /* height: 100vh; */
+    font-size: 1.2rem;
+    /* background: var(--color-bg-variant); */
+    padding: 2.4rem;
+    border-radius: .5rem;
+    width: 100%;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.about-container ul {
+    list-style-type: "*";
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.about-container ul li {
+    list-style: none;
+    position: relative;
+    padding: 3px 0 2px 25px;
+}
+
+.about-container ul li::before {
+    content: '*';
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
