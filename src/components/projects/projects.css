@@ -43,6 +43,7 @@
 .projects__item h3 {
     margin: 1rem auto;
     text-align: center;
+    font-weight: 600;
 }
 
 .projects__item h3:last-child {

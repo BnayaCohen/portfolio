@@ -22,7 +22,7 @@ const Skills = () => {
   window.addEventListener("scroll", reveal);
   return (
     <section id="skills">
-      <h2>My Skills</h2>
+      <h2 style={{ color: '#fff' }}>My Skills</h2>
 
       <div className="container skills__container reveal">
 

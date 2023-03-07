@@ -11,12 +11,6 @@
 }
 
 :root {
-  /* --color-bg: #1f1f38;
-  --color-bg-variant: #4c4c9f;
-  --color-bg-primary: #4db5ff;
-  --color-bg-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6); */
   --color-bg: #0c2340;
   --color-bg-variant: #0097ab;
   --color-bg-primary: #d7c7a7;
@@ -45,8 +39,6 @@ body {
   line-height: 1.7;
   font-weight: 100;
   /* background-image: linear-gradient(toright, #870000, #190a05); */
-
-  /* background-position: ; */
 }
 
 /* ############### GENERAL STYLES ############### */
